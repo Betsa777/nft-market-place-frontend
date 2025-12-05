@@ -50,7 +50,7 @@ Users can perform the following actions:
 * Asset Name
 * Policy ID (truncated)
 * Price (if set)
-* Ownership Badge (`Mine` if the NFT belongs to the connected wallet)
+* Ownership Badge (`Owned` if the NFT belongs to the connected wallet)
 * Sale Status (`For sale` badge if listed)
 
 ---
