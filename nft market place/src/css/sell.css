@@ -1,0 +1,78 @@
+.sell-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.nft-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* espace entre les cartes */
+    justify-content: center;
+}
+
+.nft-card {
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s;
+}
+
+.nft-card:hover {
+    transform: translateY(-5px);
+}
+
+.nft-emoji {
+    font-size: 64px;
+    /* taille emoji */
+    margin-bottom: 10px;
+}
+
+.nft-info p {
+    margin: 5px 0;
+    word-break: break-word;
+    /* pour les long strings */
+}
+
+.nft-actions {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.nft-actions input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.sell-btn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 8px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.sell-btn:hover {
+    background-color: #45a049;
+}

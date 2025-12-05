@@ -1,0 +1,67 @@
+/* NAVBAR — Barre horizontale moderne */
+nav {
+    width: 100%;
+    background: #ffffff;
+    padding: 14px 32px;
+    box-shadow: 0 3px 16px rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-family: "Inter", sans-serif;
+}
+
+/* Liste horizontale */
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Liens sous forme de boutons */
+nav button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+    padding: 10px 18px;
+    border-radius: 10px;
+    transition: all 0.25s ease;
+}
+
+/* Hover effect */
+nav button:hover {
+    background: #5b4bff;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+/* Active / Focus */
+nav button:focus,
+nav button:active {
+    outline: none;
+    background: #4a3ae4;
+    color: white;
+    transform: scale(0.98);
+}
+
+/* Version mobile */
+@media (max-width: 600px) {
+    nav {
+        padding: 12px 16px;
+    }
+
+    nav ul {
+        gap: 12px;
+    }
+
+    nav button {
+        font-size: 15px;
+        padding: 8px 14px;
+    }
+}
