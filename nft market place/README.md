@@ -1,4 +1,3 @@
-Bien sûr ! Voici la version mise à jour de la documentation avec les instructions pour lancer le projet :
 
 ````markdown
 # NFT Marketplace Frontend Documentation
